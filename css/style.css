@@ -72,3 +72,9 @@
     text-align: center;
     background-color: #8a0d37;
 }
+/* pagina de contacto */
+#contacto .titulo {
+    width: 100%;
+    margin-top: 105px;
+    text-align: center;
+}
