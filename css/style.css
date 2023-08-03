@@ -1,15 +1,18 @@
+
 #logo{
     width: 75%;
 }
 
 :root{
-   --encabezado: #8fe6ec;
+   --encabezado: #3432CA;
 }   
 #menu{
     background-color: var(--encabezado) !important;
 }
+
+
 .nav-link{
-    color: rgb(17, 109, 171);
+    color: rgb(13, 16, 18);
     font-weight: bold;
 }
 .nav-link:hover{
@@ -53,25 +56,38 @@
     padding: 70px 0; 
 }
 .footer__info{
-    color: #d80707;
+    color: #080404;
     line-height: 30px;
     font-size: 1.0rem;;
 }
 .footer__link:nth-child(1){
-    border-left: 2px solid #dee516;
+    border-left: 2px solid #c8cf0b;
 }
 .footer__link:nth-child(2){
-    border-left: 2px solid #4118c9;
+    border-left: 2px solid #1155d4;
 }
 .footer__link:nth-child(3){
-    border-left: 2px solid #8a0d37;
+    border-left: 2px solid #cd0e0e;
 }
 .footer-credits{
     width: 100%;
     color: #4118c9;
     text-align: center;
-    background-color: #8a0d37;
+    background-color: #2d6a98;
 }
+#novedades{
+    display: flex;
+    justify-content: end;
+   
+
+}
+.promocion{
+    display: inline;
+    display: flex;
+    justify-content: center;
+   
+}
+
 /* pagina de contacto */
 #contacto .titulo {
     width: 100%;
