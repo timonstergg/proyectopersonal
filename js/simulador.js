@@ -5,7 +5,7 @@ function calcular() {
     // se va a tomar el dato del elemento imput precio del html
     let precio = document.simuladorFactura.precio.value;
      // se va a tomar el dato del elemento imput cantidad del html
-    let cantidad = document.simuladorFactura.precio.value;
+    let cantidad = document.simuladorFactura.cantidad.value;
     // definir el valor del iva (es una constante por lo que no se usa el let si no const)
     const iva = 0.19;
     // capturar el dato del producto
@@ -29,7 +29,9 @@ function calcular() {
         document.getElementById("valorProducto").innerHTML = producto;
         //mostrar el precio simulado por el usuario
         document.getElementById("valorPrecio").innerHTML = precio;
-          
+        document.getElementById("valorTotal").innerHTML = vt;
+        document.getElementById("valorIva").innerHTML = vi;
+        document.getElementById("totalPagar").innerHTML = vt;
 
     }
 
